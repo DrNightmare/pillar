@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "npm run build && node dist/test/pairSum.test.js"
+    "test": "npm run build && node dist/test/pairSum.test.js && node dist/test/maxSubarraySum.test.js && node dist/test/minSubarrayLen.test.js"
   },
   "devDependencies": {
     "typescript": "^5.8.3"
