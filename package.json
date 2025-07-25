@@ -1,0 +1,14 @@
+{
+  "name": "ds-patterns",
+  "version": "1.0.0",
+  "description": "Reusable DSA patterns",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node dist/test/pairSum.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
