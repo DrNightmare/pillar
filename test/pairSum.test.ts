@@ -1,6 +1,6 @@
 // @ts-nocheck
 const assert = require('assert');
-const { PairSumExists } = require('../examples/PairSumExists');
+const { PairSumExists } = require('../src/examples/PairSumExists');
 
 const solver = new PairSumExists();
 
